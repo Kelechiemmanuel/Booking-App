@@ -5,7 +5,14 @@ const cors = require('cors')
 
 app.use(express.json())
 
-app.use(cors())
+app.use(cors({
+    origin: [
+        "http://localhost:5173",
+        "http://localhost:5174",
+        "https://portfolio-nine-theta-10.vercel.app"
+    ],
+    credentials: true
+}));
 
 app.use('/api/auth', require('./Routes/authRoute'))
 app.use('/api/onboarding', require('./Routes/onboardingRoute'))

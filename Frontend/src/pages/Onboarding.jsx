@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const API_BASE = 'http://localhost:4999/api'
+const API_BASE = 'https://booking-app-xbb7.onrender.com/api'
 const DAYS = [
     { label: 'M', value: 1 },
     { label: 'T', value: 2 },

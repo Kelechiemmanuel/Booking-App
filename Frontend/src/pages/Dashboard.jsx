@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const API_BASE = 'http://localhost:4999/api'
+const API_BASE = 'https://booking-app-xbb7.onrender.com/api'
 
 function formatDateTime(date, time) {
     const [hStr] = time.split(':')

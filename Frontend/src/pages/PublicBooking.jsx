@@ -2,7 +2,7 @@
 import React, { useState, useMemo, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 
-const API_BASE = 'http://localhost:4999/api'
+const API_BASE = 'https://booking-app-xbb7.onrender.com/api'
 const MONTH_NAMES = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 const DAY_LABELS = ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"]
 const DURATIONS = [

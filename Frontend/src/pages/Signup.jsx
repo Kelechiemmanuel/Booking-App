@@ -1,7 +1,7 @@
 // components/Signup.jsx
 import React, { useState } from 'react'
 
-const API_BASE = 'http://localhost:4999/api'
+const API_BASE = 'https://booking-app-xbb7.onrender.com/api'
 
 const Signup = ({ open, onClose, onSwitchToLogin }) => {
     const [name, setName] = useState('')

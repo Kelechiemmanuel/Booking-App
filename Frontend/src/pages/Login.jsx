@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const API_BASE = 'http://localhost:4999/api'
+const API_BASE = 'https://booking-app-xbb7.onrender.com/api'
 
 const Login = ({ open, onClose, onSwitchToSignup }) => {
     const [email, setEmail] = useState('')
